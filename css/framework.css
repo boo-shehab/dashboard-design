@@ -15,6 +15,20 @@
 .align-center {
     align-items: center;
 }
+
+.gap-20 {
+    gap: 20px;
+}
+
+.d-grid {
+    display: grid;
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
 /* End Box */
 /* Start margin + padding */
 .p-20 {
@@ -59,6 +73,12 @@
 
 .fs-14 {
     font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center
+    }
 }
 /* End font */
 /* Start border */
