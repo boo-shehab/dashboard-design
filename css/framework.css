@@ -161,6 +161,10 @@
     font-size: 14px;
 }
 
+.fs-15 {
+    font-size: 15px;
+}
+
 @media (max-width: 767px) {
     .txt-c-mobile {
         text-align: center
@@ -170,6 +174,10 @@
 /* Start border */
 .rad-6 {
     border-radius: 6px;
+}
+
+.b-none {
+    border: none;
 }
 /* End border */
 /* Start width + hight */
@@ -186,6 +194,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
 }
 /* End components */
 /* End border */
