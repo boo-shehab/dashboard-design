@@ -135,6 +135,14 @@
     background-color: var(--blue-color);
 }
 
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
 .c-white {
     color: white;
 }
@@ -145,6 +153,18 @@
 
 .c-grey {
     color: var(--grey-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
 }
 /* End color */
 /* Start position */
@@ -190,6 +210,12 @@
 }
 /* End width + hight */
 /* Start components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .between-flex {
     display: flex;
     align-items: center;
