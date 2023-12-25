@@ -147,6 +147,10 @@
     background-color: var(--green-color);
 }
 
+.bg-red {
+    background-color: var(--red-color);
+}
+
 .c-white {
     color: white;
 }
@@ -202,6 +206,14 @@
 /* Start border */
 .rad-6 {
     border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-half {
+    border-radius: 50%;
 }
 
 .b-none {
